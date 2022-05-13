@@ -1,0 +1,37 @@
+
+.m1{
+    display: flex;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+}
+.m2{
+    display: flex;
+    border: 1px solid black;
+}
+.m21{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.m22{
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+
+.m1>div{
+    background-color: darkgray;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+}
+.m21>div{
+    background-color: darkgray;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+}
